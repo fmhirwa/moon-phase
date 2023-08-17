@@ -1,0 +1,34 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#calendar {
+	margin: 50px auto;
+	width: 80%;
+	height: 500px;
+	border: 1px solid #ccc;
+    position: relative;
+}
+
+.moon-data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+	font-size:xx-large;
+}
+
+.moon-data div {
+    margin-bottom: 10px;
+}
